@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul class="menu_principal">
+                <li><a href="template.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="agenda.html">Horário de Atendimento</a></li>
+                <li id="active"><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <a href="http://127.0.0.1:5500/template.html"><img class="logo" src="logo.png" title="Clínica Vita"
+                        alt="Logomarca HTML5"></a>
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Fale conosco</h1>
+                <div class="contato">
+                    <h4>Se preferir:</h4>
+                    <ul>
+                        <li>Email: contato@vita.com.br</li>
+                        <li>WhatsApp: 71 0000-0000</li>
+                        <li>Salas 503, 504, 415 a 417 e 513 a 514
+                            Edf Salvador Trade Center, Torre Sul - sala 503</li>
+                    </ul>
+                </div>
+                <div class="contato_b">
+
+
+                    <h4>Preencha o formulário abaixo:</h4>
+                    <form name="contact" autocomplete="on" method="post">
+                        <label>Nome: </label><input type="text" name="name" placeholder="Primeiro nome"><br>
+                        <label>E-mail: </label><input type="email" name="email" placeholder="Seu melhor E-mail"><br>
+                        <label>Assunto: </label><input type="text" placeholder="Qual assunto"><br>
+                        <label>Mensagem: </label><textarea placeholder="Sobre o que deseja falar..."></textarea><br>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </form>
+                </div>
+                <div class="mapa">
+                    <h2>Veja no Mapa</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.813731698324!2d-38.45595752596773!3d-12.98376256005181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161bece08899db%3A0xa3edc8071f16ee9c!2sClinica%20Vita%20-%20Medicina%20Inteligente!5e0!3m2!1spt-BR!2sbr!4v1698350314101!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <p>&copy 2023 Clínica Vita. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
