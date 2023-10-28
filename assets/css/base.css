@@ -1,0 +1,197 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    /*background-color: aquamarine;*/
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #fbfbfb;
+    /*padding: 10px 20px 0px;*/
+}
+
+.menu ul {
+    margin-top: 148px;
+    width: 180px;
+    margin-left: -40px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #6338f0;
+    background-color: rgb(215, 253, 253);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #070707;
+}
+
+.menu ul li:hover {
+    background-color: #8865fc;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.menu ul li:hover>a {
+    color: rgb(255, 255, 255);
+}
+
+#active {
+    background-color: #6338f0;
+    color: #fff;
+}
+
+li#active a {
+    color: #fff;
+}
+
+.header {
+    background-image: linear-gradient(to right, aquamarine, purple);
+    min-height: 150px;
+}
+
+header,
+img.logo {
+    width: 200px;
+    margin: 40px 0 0 20px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+
+.content #image {
+    width: 80%;
+}
+
+.content h1 {
+    color: #26aa96;
+}
+
+.content h2 {
+    color: #333;
+}
+
+div>.servicos {
+    width: 21%;
+    display: inline-block;
+    border: solid 1px #f0f0f0;
+    box-shadow: 8px 7px 5px 0px rgba(212, 212, 212, 0.75);
+    -webkit-box-shadow: 8px 7px 5px 0px rgba(212, 212, 212, 0.75);
+    -moz-box-shadow: 8px 7px 5px 0px rgba(212, 212, 212, 0.75);
+}
+
+div>.servicos p {
+    text-align: left;
+    padding: 8%;
+}
+
+div>.nossos_servicos h1 {
+    text-align: center;
+}
+
+div>.content h2 {
+    margin-top: 50px;
+}
+
+table {
+    border: solid 1px #e2e2e2;
+    box-shadow: 8px 7px 5px 0px rgba(212, 212, 212, 0.75);
+    -webkit-box-shadow: 8px 7px 5px 0px rgba(212, 212, 212, 0.75);
+    -moz-box-shadow: 8px 7px 5px 0px rgba(212, 212, 212, 0.75);
+}
+
+table thead th {
+    background-color: #c7049d;
+    color: #fff;
+}
+
+tfoot td {
+    background-color: #4d023c;
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: #e1eff8;
+}
+
+table tr:hover td {
+    background-color: #00eeff;
+    cursor: pointer;
+}
+
+.quem_somos p {
+    padding: 0 150px 0 150px;
+    text-align: center;
+}
+
+.contato {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    float: right;
+}
+
+.contato_b {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+
+}
+
+.contato ul li {
+    list-style-type: none;
+    margin: 0 0 5px;
+
+}
+
+.contato_b h4 {
+    text-align: center;
+}
+
+.mapa h2 {
+    padding-top: 100px;
+    text-align: center;
+}
+
+form,
+input,
+textarea {
+    padding: 6px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 50px;
+}
